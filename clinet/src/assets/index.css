@@ -1,0 +1,48 @@
+body,html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    width: 100vw;
+}
+#root {
+    height: 100vh;
+    width: 100vw;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024px;
+    min-height: 100vh;
+    margin: auto;
+}
+.container {
+    max-width: 1024px;
+    height: 100vh;
+    margin: auto;
+}
+.center-box {
+    height: 100vh;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    user-zoom: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.MuiPaper-root {
+    padding: 20px;
+}
+.table-container {
+    position: relative;
+}
+.float {
+    position: absolute !important;
+    right: -20px;
+    bottom: -20px;
+}
